@@ -159,7 +159,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc TODO
+%doc ChangeLog TODO
 %attr(755,root,root) %{_libdir}/libbamf3.so.*.*.*
 %ghost %{_libdir}/libbamf3.so.2
 %{_libdir}/girepository-1.0/Bamf-3.typelib
